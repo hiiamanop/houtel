@@ -1,7 +1,7 @@
 <template>
 <div id = "ListView">
     <HeaderComp/>
-    <SearchList/>
+    <!-- <SearchList/> -->
     <RecList/>
     <FooterComp/>
 
@@ -9,13 +9,13 @@
 </template>
 
 <script>
-import SearchList from '@/components/SearchList.vue'
+// import SearchList from '@/components/SearchList.vue'
 import RecList from '@/components/RecList.vue'
 import FooterComp from '@/components/FooterComp.vue';
 import HeaderComp from '@/components/HeaderComp.vue';
 export default {
     name: "ListView",
-    components: { SearchList, RecList, FooterComp, HeaderComp }
+    components: { RecList, FooterComp, HeaderComp }
 };
 </script>
 
